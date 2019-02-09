@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.redes{
+	position: fixed;
+	left: 0;
+	top:200px;
+	z-index: 2000;
+}
+
+.redes ul li a {
+	display: inline-block;
+	color: #fff;
+	background-color: #000;
+	padding: 10px 15px;
+	text-decoration:none;
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.redes ul li .icon-facebook2{background:blue;}
+.redes ul li .icon-youtube{background:red;}
+.redes ul li .icon-instagram{background:violet;}
+.redes ul li .icon-feed{background:green;}
+
+.redes ul li a:hover{
+	padding: 10px 30px;
+}
+
+header {
+	width: 90%;
+	margin:10px auto;
+	max-width: 3000px;
+	background-color: #499BEE;
+
+}
+
+.logo img{
+	width:10%;
+	background-color: #499BEE;	
+	margin-left: 42%;
+}
+
+.menu{
+	background: #0E77FB;
+	overflow: hidden;
+}
+.menu ul{
+	list-style: none;
+	margin-left: 20%;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	background: #EE842E;
+	-webkit-transition: all 1.5s ease;
+-moz-transition: all 1.5s ease;
+-ms-transition: all 1.5s ease;
+-o-transition: all 1.5s ease;
+transition: all 1.5s ease;
+}
+
+/*articulos*/
+
+.products{
+	margin-left: 4%;
+	top: 500px;
+	left: 490px;
+	border: 1px solid#6C8BF8;
+    width: 290px;
+    margin-right: 55px;
+
+}
+
+
+/*Fin de articulos*/
+
+table{
+	clear: both;  
+	margin: 1px auto;
+}
+
+table tr {
+	padding: 4px;
+	margin:1px;
+}
+
+table td{
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h1{
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;  
+}
+
+p{
+	font-size: 25px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+.fija{
+	width: 250px;
+	height: 250px;
+	background: #FF742C;
+	margin: 10px;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	display: table;
+	position: fixed;
+	top: 350px;
+	right: 0px;
+	list-style: none;
+}
+
+
+input{
+	width: 300px;
+	height: 50px;
+	margin-top: 62px;
+}

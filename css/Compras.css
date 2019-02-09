@@ -1,0 +1,106 @@
+header {
+	width: 90%;
+	margin:10px auto;
+	max-width: 3000px;
+	background-color: #499BEE;
+
+}
+
+.logo img{
+	width:10%;
+	background-color: #499BEE;	
+	margin-left: 42%;
+}
+
+.menu{
+	background: #0E77FB;
+	overflow: hidden;
+}
+.menu ul{
+	list-style: none;
+	margin-left: 20%;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	background: #EE842E;
+	-webkit-transition: all 1.5s ease;
+-moz-transition: all 1.5s ease;
+-ms-transition: all 1.5s ease;
+-o-transition: all 1.5s ease;
+transition: all 1.5s ease;
+}
+
+.compra{
+	list-style: none;
+	margin-left: 6%;
+	display: block;
+	clear: both;
+}
+
+.imagen{
+	border: 1px solid#6C8BF8;
+    width: 300px;
+    height: 300px;
+}
+
+.informacion{
+	clear: both;
+}
+
+h1{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 1px; 
+	color: black;
+}
+
+p{
+	margin-top: 1px;
+	text-align: center;
+	color: blue;
+	font-size: 35px;
+}
+
+.tallas{
+   margin-left: 55%
+}
+
+.box{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%,-30%);
+  background: white;
+  text-align: center;
+  list-style: none;
+  border: 1px solid blue;
+}
+
+.botonComprar ul{
+	list-style: none;
+}
+.botonComprar ul li{
+	float: right;
+}
+.botonComprar ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	width: 80%;
+}
+.botonComprar ul li a{
+	background: #F58B36;
+	margin-left: 1%;
+}
+
